@@ -29,6 +29,7 @@ button {
   justify-content: center;
   gap: 24px;
   padding: 40px 24px 64px;
+  position: relative;
 }
 
 #advice-id {
@@ -55,4 +56,15 @@ button {
 }
 
 #dice-box {
+  position: absolute;
+  bottom: -11%;
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(83, 255, 170, 1);
+  cursor: pointer;
+}
+
+#dice-box:hover {
+  box-shadow: 0px 0px 40px 0px rgba(83, 255, 170, 1);
 }
