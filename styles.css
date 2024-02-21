@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(32, 39, 51, 1);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px 0 16px;
+  font-family: "Man-rope", sans-serif;
+  width: 100%;
+}
+
+button {
+  font-family: "Man-rope", sans-serif;
+}
+
+.card {
+  background-color: rgba(49, 58, 72, 1);
+  box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 40px 24px 64px;
+}
+
+#advice-id {
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 15px;
+  letter-spacing: 3.4571425914764404px;
+  text-align: center;
+  color: rgba(83, 255, 170, 1);
+}
+
+#quote {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: -0.2571428716182709px;
+  text-align: center;
+  color: rgba(206, 227, 233, 1);
+  width: 295px;
+}
+
+.desktop {
+  display: none;
+}
+
+#dice-box {
+}
